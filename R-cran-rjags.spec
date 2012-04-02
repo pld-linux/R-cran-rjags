@@ -8,7 +8,10 @@ License:	GPL
 Group:		Applications/Databases
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	30609db97b9f93f04fb3aa1ec52783c4
+BuildRequires:	mcmc-jags-devel >= 3.2
 BuildRequires:	R >= 2.12.0
+BuildRequires:	R-cran-coda
+Requires:	R-cran-coda
 #BuildRequires:	tetex-latex-ae
 #BuildRequires:	tetex-latex-bibtex
 #Requires(post,postun):	R >= 2.12.0
