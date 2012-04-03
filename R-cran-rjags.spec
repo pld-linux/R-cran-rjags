@@ -12,11 +12,6 @@ BuildRequires:	mcmc-jags-devel >= 3.2
 BuildRequires:	R >= 2.12.0
 BuildRequires:	R-cran-coda
 Requires:	R-cran-coda
-#BuildRequires:	tetex-latex-ae
-#BuildRequires:	tetex-latex-bibtex
-#Requires(post,postun):	R >= 2.12.0
-#Requires(post,postun):	perl-base
-#Requires(post,postun):	textutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
