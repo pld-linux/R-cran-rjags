@@ -2,12 +2,12 @@
 %define		modulename	rjags
 Summary:	Interface to the JAGS MCMC library
 Name:		R-cran-%{modulename}
-Version:	3r5
+Version:	3r11
 Release:	1
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	30609db97b9f93f04fb3aa1ec52783c4
+# Source0-md5:	9a0a23154df35b5fb53c9bee2542af70
 BuildRequires:	mcmc-jags-devel >= 3.2
 BuildRequires:	R >= 2.12.0
 BuildRequires:	R-cran-coda
